@@ -1,0 +1,44 @@
+#!/usr/bin/env node
+
+var Process = require('../process.js');
+var fs    = require('fs');
+var _     = require('blank-js');
+var chalk = require('chalk');
+
+var argv = process.argv.slice(2);
+
+var options = {
+	root : process.cwd(),
+	command : '/usr/bin/env',
+	respawn : true,
+	args    : argv
+};
+
+var priestFilePath = process.cwd() + '/priest.json';
+
+if ( ! argv.length && fs.existsSync(priestFilePath)) {
+	_.extendDeep(options, require(priestFilePath));
+}
+
+var proc = Process.create(options);
+proc.on('error', function(e, err){
+	console.error(err + '');
+});
+
+proc.on('stdout', function(e, data){
+	process.stdout.write(data);
+});
+
+proc.on('stderr', function(e, data){
+	process.stderr.write(data);
+});
+
+proc.on('close', function(e){
+	console.log('Closed', e.code);
+});
+
+
+argv = options.args.slice(0);
+
+console.log('Run:', chalk.green.bold(argv.shift()), argv.map(chalk.bold).join(' '));
+proc.start();

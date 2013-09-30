@@ -1,0 +1,29 @@
+{
+  "name": "priest",
+  "version": "0.1.5",
+  "description": "Priest is a web-application manager",
+  "main": "app.js",
+  "bin": {
+    "priest": "./bin/cli"
+  },
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": "",
+  "keywords": [
+    "priest",
+    "applications",
+    "starter"
+  ],
+  "author": "Pasha Rumkin <dev@rumk.in>",
+  "license": "BSD",
+  "dependencies": {
+    "blank-js": "~0.1.20",
+    "chalk": "~0.2.1",
+    "occur": "~0.1.1",
+    "monocle": "~1.1.50"
+  },
+  "devDependencies": {
+    "checkpoint": "~0.1.4"
+  }
+}
