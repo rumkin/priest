@@ -34,7 +34,7 @@ proc.on('stderr', function(e, data){
 });
 
 proc.on('close', function(e){
-	console.log('Closed', e.code);
+	console.log('Closed', e.code ? chalk.bold.red(e.code) : chalk.bold.green('0'));
 });
 
 

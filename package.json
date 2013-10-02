@@ -1,6 +1,6 @@
 {
   "name": "priest",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Priest is a web-application manager",
   "main": "app.js",
   "bin": {
