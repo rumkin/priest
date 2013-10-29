@@ -1,4 +1,5 @@
-priest
+Priest
 ======
 
-Priest is an application run tool
+Priest restarts application on source change and allows you to run different application configurations
+with single command.
