@@ -1,3 +1,5 @@
+var lifetime = ((process.argv[2]|0) *1000) || 3000;
+
 var timeDump = function(){
 	console.log(new Date());
 };
@@ -7,4 +9,4 @@ timeDump();
 
 setTimeout(function(){
 	process.exit();
-}, 3000);
+}, lifetime);

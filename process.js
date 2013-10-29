@@ -68,7 +68,7 @@ Process.prototype.start = function() {
 			listener   : this.onFileChange.bind(this)
 		});
 	}
-	this.trigger('started');
+	this.trigger('start');
 	return this;
 };
 

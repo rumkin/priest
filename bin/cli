@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
 var Process = require('../process.js');
-var fs    = require('fs');
-var _     = require('blank-js');
-var chalk = require('chalk');
+var fs      = require('fs');
+var _       = require('blank-js');
+var chalk   = require('chalk');
+var moment  = require('moment');
 
 var argv = process.argv.slice(2);
 
@@ -20,7 +21,13 @@ if ( ! argv.length && fs.existsSync(priestFilePath)) {
 	_.extendDeep(options, require(priestFilePath));
 }
 
+var dateFormat = 'HH:mm:ss DD-MM-YYYY';
+var startedAt;
+
 var proc = Process.create(options);
+proc.on('start', function(){
+	startedAt = moment();
+})
 proc.on('error', function(e, err){
 	console.error(err + '');
 });
@@ -34,8 +41,12 @@ proc.on('stderr', function(e, data){
 });
 
 proc.on('close', function(e){
-	console.log('Closed', e.code ? chalk.bold.red(e.code) : chalk.bold.green('0'));
+	console.log('Exit code', e.code ? chalk.bold.red(e.code) : chalk.bold.green('0'));
+	console.log('Started at:', chalk.bold(startedAt.format(dateFormat)));
+	console.log('Stoped at: ', chalk.bold(moment().format(dateFormat)));
 });
+
+
 
 
 argv = options.args.slice(0);

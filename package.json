@@ -1,6 +1,6 @@
 {
   "name": "priest",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Priest is a web-application manager",
   "main": "app.js",
   "bin": {
@@ -21,7 +21,8 @@
     "blank-js": "~0.1.20",
     "chalk": "~0.2.1",
     "occur": "~0.1.1",
-    "monocle": "~1.1.50"
+    "monocle": "~1.1.50",
+    "moment": "~2.4.0"
   },
   "devDependencies": {
     "checkpoint": "~0.1.4"
