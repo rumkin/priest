@@ -6,7 +6,8 @@ var _       = require('blank-js');
 var chalk   = require('chalk');
 var moment  = require('moment');
 
-var argv = process.argv.slice(2);
+var argsDelim = process.argv.indexOf('--');
+var argv = ~argsDelim ? process.argv.slice(argsDelim + 1) : [];
 
 var options = {
 	root : process.cwd(),
@@ -19,7 +20,11 @@ var priestFilePath = process.cwd() + '/priest.json';
 
 if ( ! argv.length && fs.existsSync(priestFilePath)) {
 	_.extendDeep(options, require(priestFilePath));
+} else if ( ! argv.length) {
+	console.error('No app specified');
+	process.exit(1);
 }
+
 
 var dateFormat = 'HH:mm:ss DD-MM-YYYY';
 var startedAt;
@@ -45,8 +50,6 @@ proc.on('close', function(e){
 	console.log('Started at:', chalk.bold(startedAt.format(dateFormat)));
 	console.log('Stoped at: ', chalk.bold(moment().format(dateFormat)));
 });
-
-
 
 
 argv = options.args.slice(0);
