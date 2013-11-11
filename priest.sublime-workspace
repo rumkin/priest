@@ -1,0 +1,482 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"console"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"dev",
+				"devicePixelRatio"
+			],
+			[
+				"ap",
+				"apbmviews"
+			],
+			[
+				"cli",
+				"clientHeight"
+			],
+			[
+				"getBan",
+				"getBannerImageUrl"
+			],
+			[
+				"clic",
+				"clickUrl"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"show",
+				"showButton"
+			],
+			[
+				"head",
+				"headerEl"
+			],
+			[
+				"banner",
+				"bannerTemplates"
+			],
+			[
+				"contr",
+				"control_panel_id"
+			],
+			[
+				"dropS",
+				"dropStorageBtn"
+			],
+			[
+				"dro",
+				"dropStorageBtn"
+			],
+			[
+				"uni",
+				"uniqueDevices"
+			],
+			[
+				"close",
+				"closeConnections"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"obje",
+				"objectToCss"
+			],
+			[
+				"apb",
+				"apbm-adText-label"
+			],
+			[
+				"obj",
+				"objectToCss"
+			],
+			[
+				"style",
+				"styleEl"
+			],
+			[
+				"sty",
+				"styleEl"
+			],
+			[
+				"getAd",
+				"getAdvertDiv"
+			],
+			[
+				"prei",
+				"priestJson"
+			],
+			[
+				"time",
+				"timeDump"
+			],
+			[
+				"mo",
+				"monocle"
+			],
+			[
+				"bind",
+				"bindOutput"
+			],
+			[
+				"scroll",
+				"scrollHeight"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"con",
+				"consoleEl"
+			],
+			[
+				"process",
+				"processes"
+			],
+			[
+				"cos",
+				"consoleEl"
+			],
+			[
+				"siz",
+				"sizePolicy"
+			],
+			[
+				"Qt",
+				"QtGui"
+			],
+			[
+				"user",
+				"userAgentForUrl"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 112.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/rumkin/projects/check-service/test/all.js",
+		"/home/rumkin/projects/check-service/package.json",
+		"/home/rumkin/projects/check-service/check-service.js",
+		"/var/www/vhosts/viboom/httpdocs/viboom/config/deploy.rb",
+		"/home/rumkin/Dev/nodejs/priest/server.js",
+		"/home/rumkin/Dev/nodejs/priest/priest.sublime-project",
+		"/run/user/rumkin/gvfs/SFTP for developer on 5.187.5.143/home/developer/projects/rotator/server.js",
+		"/run/user/rumkin/gvfs/SFTP for developer on 5.187.5.143/home/developer/projects/rotator/ui/app/modules/advert.js",
+		"/run/user/rumkin/gvfs/SFTP for developer on 5.187.5.143/home/developer/projects/rotator/static/index.html",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/views/advert.js",
+		"/run/user/rumkin/gvfs/SFTP for root on 5.187.5.143/tmp/serverjs/server.js",
+		"/home/rumkin/Dev/nodejs/priest/package.json",
+		"/run/user/rumkin/gvfs/SFTP for root on 5.187.5.143/tmp/serverjs/package.json",
+		"/run/user/rumkin/gvfs/SFTP for root on 5.187.5.143/tmp/serverjs/.bowerrc",
+		"/home/rumkin/Dev/nodejs/shaft-js/test/simple/.bowerrc",
+		"/home/rumkin/Dev/nodejs/massbass/bower.json",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/views/index.jade",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/views/control-panel.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/views/layout.jade",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/views/test-banner.jade",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/controllers/show.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/controllers/ad.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/app.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/modules/stat.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/modules/devices.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/modules/advert.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/modules/mysql.js",
+		"/home/rumkin/Dev/js/flush/flush.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/views/banners/text.flush",
+		"/home/rumkin/Dev/js/flush/package.json",
+		"/home/rumkin/Dev/js/flush/src/flush-raw.js",
+		"/home/rumkin/Dev/js/flush/.git/config",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/config.js",
+		"/home/rumkin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rumkin/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/rumkin/Dev/js/blank-js/src/blank.js",
+		"/home/rumkin/Dev/js/blank-js/package.json",
+		"/home/rumkin/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
+		"/home/rumkin/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/modules/mongo.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/modules/test.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/bin/mongo-import-devices",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/controllers/appboomController.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/views/show.jade",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/getopt.json",
+		"/home/rumkin/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/rumkin/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/rumkin/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/rumkin/.bashrc",
+		"/var/www/vhosts/viboom/httpdocs/appboom/dumps/base.sql",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/priest.json",
+		"/var/www/vhosts/viboom/httpdocs/appboom/application/configs/settings.ini",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/controllers/api.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/application/configs/local.ini",
+		"/var/www/vhosts/viboom/httpdocs/appboom/.gitignore",
+		"/var/www/vhosts/viboom/httpdocs/appboom/config/deploy.yml",
+		"/var/www/vhosts/viboom/httpdocs/appboom/config/deploy.rb",
+		"/var/www/vhosts/viboom/httpdocs/appboom/config/deploy.1.yml",
+		"/home/rumkin/.bash",
+		"/var/www/vhosts/viboom/httpdocs/viboom/daemons/pixel3/view/overroll.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/modules/geo.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/modules/memcached.js",
+		"/home/rumkin/Dev/python/appboom/app.py",
+		"/home/rumkin/Dev/nodejs/priest/cli.js",
+		"/home/rumkin/Dev/nodejs/priest/process.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/node_modules/pill/src/pill.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/public/tests/mobile.html",
+		"/home/rumkin/Dev/nodejs/priest/test/time.js",
+		"/home/rumkin/Dev/nodejs/priest/bin/cli",
+		"/var/www/vhosts/viboom/httpdocs/appboom/application/configs/acl.ini",
+		"/var/www/vhosts/viboom/httpdocs/appboom/application/configs/navigation.ini",
+		"/var/www/vhosts/viboom/httpdocs/appboom/application/configs/resources.ini",
+		"/var/www/vhosts/viboom/httpdocs/appboom/application/configs/roles.ini",
+		"/var/www/vhosts/viboom/httpdocs/appboom/utils/rotator/models/devices/display.js",
+		"/var/www/vhosts/viboom/httpdocs/appboom/library/Service/Apps/Models/TargetingModel.php",
+		"/home/rumkin/Dev/nodejs/priest/server/index.html",
+		"/home/rumkin/Dev/nodejs/priest/server/ui/app/app.js",
+		"/home/rumkin/Dev/nodejs/priest/test/child_events.js",
+		"/home/rumkin/Dev/nodejs/priest/subprocess.js",
+		"/home/rumkin/Dev/nodejs/priest/test/time/time.js",
+		"/home/rumkin/.priest/apps/rotator.json",
+		"/home/rumkin/.priest/apps/time.json",
+		"/home/rumkin/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/rumkin/Dev/nodejs/priest/server/ui/main.less",
+		"/home/rumkin/Dev/python/iv/iv.py",
+		"/home/rumkin/Dev/python/appboom/test.js",
+		"/home/rumkin/Dev/python/iv/iv.ui",
+		"/home/rumkin/Dev/python/appboom/test/js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"when",
+			"Controller",
+			"drop",
+			"orienta",
+			"query",
+			"rotator_platform_",
+			"adCpm",
+			"cpm",
+			"getBannerPath",
+			"targets",
+			"bindings",
+			"closeButton",
+			"templates",
+			"tools",
+			"data",
+			"data\\s:",
+			"white",
+			"geo2",
+			"debug",
+			"type",
+			"name",
+			"\\$\\$getOsId",
+			"$$getOsId",
+			"id",
+			"os_name",
+			"ua.device",
+			"vendor",
+			"Patched",
+			"vendor",
+			"device",
+			"data",
+			"_createConnector",
+			"vendor",
+			"data",
+			"format",
+			"select",
+			"0",
+			": ",
+			"adLink",
+			"bannerDiv",
+			"getOrientation",
+			"type",
+			"x-geo2",
+			"referrer",
+			"log_colle",
+			"vendor",
+			"Active",
+			"Active ads",
+			"console.log",
+			"console",
+			"process",
+			"console.log",
+			"http://appaugust.ru",
+			"dev.appboom.ru",
+			"DEVICE",
+			"TARGET",
+			"x-geo3",
+			"x-geo2",
+			"x-geo",
+			"country_id",
+			"city_id",
+			".type",
+			"ad.type",
+			"close",
+			"console.log",
+			"shift+delete",
+			"+delete",
+			"ctrl+delete",
+			"}\n",
+			"+d\"",
+			"+d",
+			"crypto",
+			"moment",
+			"moment.",
+			"console.log",
+			"consol.log",
+			"console",
+			"process",
+			"data",
+			"		",
+			"var platformId",
+			"moment",
+			"detail",
+			"detailed"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"geo",
+			"os_family",
+			"x-geo",
+			"referer",
+			"localhost:1100",
+			"x-geo2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 224.0
+	},
+	"project": "priest.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
